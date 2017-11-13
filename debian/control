@@ -1,0 +1,15 @@
+Source: checkmem
+Section: unknown
+Priority: optional
+Maintainer: Robert Weidlich <debian@robertweidlich.de>
+Build-Depends: debhelper (>= 9), libtclap-dev ( >= 1.2.1)
+Standards-Version: 3.9.5
+Homepage: https://github.com/cato-/check_mem
+#Vcs-Git: git://anonscm.debian.org/collab-maint/checkmem.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/checkmem.git;a=summary
+
+Package: checkmem
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plugin for monitoring memory
+ <insert long description, indented with spaces>
